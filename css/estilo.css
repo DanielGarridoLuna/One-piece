@@ -1,0 +1,8 @@
+.titulosnav{
+    font-size: large;
+}
+
+
+.titulosnav:hover{
+    font-size:x-large;
+}
