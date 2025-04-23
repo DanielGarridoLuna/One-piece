@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <title>Document</title>
+</head>
+<body class="bg-dark">
+    
+        <div class="container">
+
+            <div align="center">
+                <h1 class="text-white display-2">Calculo de Sueldo</h1>
+            </div>
+    
+
+<div class="d-flex flex-row my-3">
+    <div class="col-3">
+        <h3 class="text-white">Venta de la quicena:</h3>
+    </div>
+
+    <div class="col-9">
+        <input type="number" id="txtventa" class="form-control" placeholder="¿Cuanto vendiste esta quicena?">
+    </div>  
+</div>
+
+<div class="d-flex flex-row my-3">
+    <div class="col-3">
+        <h3 class="text-white">Viaticos de la quicena:</h3>
+    </div>
+
+    <div class="col-9">
+        <input type="number" id="txtvia" class="form-control" placeholder="¿Cuanto te dieron de viaticos esta quicena?">
+    </div>  
+</div>
+
+<div class="d-flex flex-row my-3">
+    <div class="col-3">
+        <h3 class="text-white">Comida de la quicena:</h3>
+    </div>
+
+    <div class="col-9">
+        <input type="number" id="txtcomida" class="form-control" placeholder="¿Cuanto gastaste en comida esta quicena?">
+    </div>  
+</div>
+
+<div class="d-flex flex-row my-3">
+    <div class="col-3">
+        <h3 class="text-white">Transporte de la quicena:</h3>
+    </div>
+
+    <div class="col-9">
+        <input type="number" id="txttrans" class="form-control" placeholder="¿Cuanto gastaste en Transporte esta quicena?">
+    </div>  
+</div>
+
+<div class="d-flex flex-row my-3">
+    <div class="col-3">
+        <h3 class="text-white">Hospedaje de la quicena:</h3>
+    </div>
+
+    <div class="col-9">
+        <input type="number" id="txthos" class="form-control" placeholder="¿Cuanto gastaste en Hospedaje esta quicena?">
+    </div>  
+</div>
+           
+<button class="btn btn-primary w-100 my-3" onclick="calcular()">Calcular Suedlo</button>
+
+<div id="resultado">
+
+</div>
+
+
+        </div>
+
+
+        <script src="js/calculo.js"></script>
+</body>
+</html>
